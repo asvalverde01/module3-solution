@@ -1,0 +1,58 @@
+/* Custom styles for the assignment */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  border-color: transparent;
+}
+
+.icon-bar {
+  background-color: #000;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-nav li a {
+  font-size: 18px;
+  padding: 14px 20px;
+}
+
+/* Page heading styles */
+.container h1 {
+  margin: 20px 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Main content styles */
+.main-content {
+  height: 1000px;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+}
